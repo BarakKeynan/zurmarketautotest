@@ -188,7 +188,7 @@ if (runall) {
     @Test
 
     public void test8() throws Exception {
-
+	System.out.println("test8 sending keys");
 	pomModelzurmarket.customer_mailreg.sendKeys("barak.autotech@gmail");
 
     }
